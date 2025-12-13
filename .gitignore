@@ -1,0 +1,6 @@
+# exclude node_modules
+server/node_modules
+client/node_modules
+
+# exclude media files
+server/uploads/*
