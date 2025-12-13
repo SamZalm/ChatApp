@@ -21,7 +21,11 @@ User & Data Management
 You will need the following installed on your machine:
 * Node.js (LTS version recommended)
 * npm or yarn
-* A running MongoDB instance (local or remote)
+* A running MongoDB instance (local or remote).
+Windows users may install MongoDB using the following command:
+```sh
+winget install MongoDB.Server
+```
 
 ## Installing
 * Clone the repository:
@@ -40,7 +44,7 @@ Modify the .env file in the server directory and add your connection string
 
 Start the server:
 ```sh
-npm start
+node main.js
 ```
 
 * Setup Frontend (Client)
