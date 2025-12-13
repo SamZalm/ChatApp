@@ -40,7 +40,7 @@ Modify the .env file in the server directory and add your connection string
 
 Start the server:
 ```sh
-npm start
+node main.js
 ```
 
 * Setup Frontend (Client)
