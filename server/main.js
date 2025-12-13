@@ -1,3 +1,5 @@
+const fs = require('fs');
+const path = require('path');
 const express = require("express");
 const cors = require('cors');
 const http = require('http');
@@ -10,6 +12,13 @@ const { setupSocket } = require("./socket");
 const app = express();
 require("./configs/connectDB")();
 require("dotenv").config() //set usage of .env file
+
+// 'uploads' fix
+const folderPath = path.join(__dirname, 'uploads');
+if (!fs.existsSync(folderPath)) {
+    fs.mkdirSync(folderPath, { recursive: true });
+    console.log('Folder "uploads" created!');
+}
 
 app.use(express.json());
 app.use(cors());
