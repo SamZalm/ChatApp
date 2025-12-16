@@ -8,7 +8,7 @@ This is a Real-time chat application built with React and NodeJS that contains t
 * Message Editing: Users have the ability to edit their own sent messages.
 * Message Deletion: Users have the option to delete their own sent messages.
 * Group Chats: Ability to participate in multi-user conversations.
-* Responsive Design: Optimized layout for various screen sizes using TailwindCSS or Material UI.
+* Responsive Design: Optimized layout for various screen sizes using Material UI.
 
 ### User & Data Management
 * Authentication: Secure Register and Log-in flow with user verification using JSON Web Tokens (JWT).
