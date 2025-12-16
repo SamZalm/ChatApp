@@ -59,7 +59,7 @@ npm run dev
 ```
 
 ## Routes
-### Endpoint that do not require a valid token in order to proceed:
+### Endpoints that do not require a valid token in order to proceed:
 * api/auth/register (POST) - registers a user
 * api/auth/login (POST) - login endpoint
 * api/media/uploads/{image file name} (GET) - returns the image with the corresponding file name.
