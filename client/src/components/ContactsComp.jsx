@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Box, Avatar, Typography, IconButton } from '@mui/material';
 import { Add } from '@mui/icons-material';
 import axios from 'axios';

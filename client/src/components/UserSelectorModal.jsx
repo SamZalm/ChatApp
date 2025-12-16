@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Box, Avatar, Typography, Modal, Button, Checkbox } from '@mui/material';
 
 const UserSelectorModal = ({ modalLabel, openModal, setOpenModal, userList, confirmCallback }) => {

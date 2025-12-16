@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Box, TextField, IconButton, Typography, AppBar, Toolbar, Avatar, useMediaQuery, useTheme } from '@mui/material';
 import { ArrowBack } from '@mui/icons-material';
 import MessageComp from './MessageComp';
