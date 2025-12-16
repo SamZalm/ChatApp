@@ -1,4 +1,4 @@
-## About The Project
+# About The Project
 This is a Real-time chat application built with React and NodeJS that contains the following features:
 
 = Core Messaging & Real-Time
@@ -60,12 +60,12 @@ npm run dev
 
 ## Routes
 * Endpoint that do not require a valid token in order to proceed:
-# api/auth/register (POST) - registers a user
-# api/auth/login (POST) - login endpoint
-# api/media/uploads/{image file name} (GET) - returns the image with the corresponding file name.
-# api/media/upload/ (POST) - accepts image files and uploads them. returns the url of the uploaded image.
+### api/auth/register (POST) - registers a user
+### api/auth/login (POST) - login endpoint
+### api/media/uploads/{image file name} (GET) - returns the image with the corresponding file name.
+### api/media/upload/ (POST) - accepts image files and uploads them. returns the url of the uploaded image.
 
 * Endpoints that require a valid token in order to proceed:
-# api/auth/me (GET) - returns some basic information about the user currently logged in (id, username, profile picture)
-# api/chat/ (GET) - returns an array of conversations for the current user.
-# api/chat/messages/:id/:page (GET) - returns an array (in json) of the last 100 messages sent in a matching conversation (id). only works if the user listed as a participant. for the next 100 messages (older), increase the value of 'page' by 1.
+### api/auth/me (GET) - returns some basic information about the user currently logged in (id, username, profile picture)
+### api/chat/ (GET) - returns an array of conversations for the current user.
+### api/chat/messages/:id/:page (GET) - returns an array (in json) of the last 100 messages sent in a matching conversation (id). only works if the user listed as a participant. for the next 100 messages (older), increase the value of 'page' by 1.
