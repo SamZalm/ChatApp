@@ -1,7 +1,7 @@
 # About The Project
 This is a Real-time chat application built with React and NodeJS that contains the following features:
 
-= Core Messaging & Real-Time
+### Core Messaging & Real-Time
 * Real-Time Messaging: Instantly send and receive private messages using Socket.IO.
 * Message History: Automatic loading of past conversation history upon opening a chat.
 * Connection Management: Real-time tracking and handling of user connect/disconnect events on the server.
@@ -10,7 +10,7 @@ This is a Real-time chat application built with React and NodeJS that contains t
 * Group Chats: Ability to participate in multi-user conversations.
 * Responsive Design: Optimized layout for various screen sizes using TailwindCSS or Material UI.
 
-User & Data Management
+### User & Data Management
 * Authentication: Secure Register and Log-in flow with user verification using JSON Web Tokens (JWT).
 * Media Upload: Support for uploading and viewing profile pictures within the chat (handling media uploads on the server).
 * Contact List: A dedicated main screen displaying the user's list of active conversations.
